@@ -14,7 +14,7 @@ function animate() {
 //  every time we animate, we want to recalculate the pixels of the page
   let points = xs.map(x => {
     // Reduce hight of wave and change gap here:
-    let y = 200 + 30 * Math.sin((x + t)/15);
+    let y = 150 + 30 * Math.sin((x + t)/15);
     return [x, y];
   })
 // 3. We take every x and turn it into html attribute

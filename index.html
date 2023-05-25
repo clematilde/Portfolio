@@ -26,31 +26,33 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="container-fluid" style="height: 100vh;">
+    <div class="container" >
 
-      <nav class="navbar navbar-expand-lg">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="container-fluid ">
-          <ul class="navbar-nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#">about me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">my projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact me</a>
-            </li>
-          </ul>
+      <div class="header">
+        <nav class="navbar navbar-expand-lg">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container-fluid ">
+            <ul class="navbar-nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">about me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">my projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact me</a>
+              </li>
+            </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
 
-
+      <!-- First part -->
         <div class="d-md-flex flex-row mx-sm-5 mx-3 mt-5" style="height: 40%;">
           <!-- LAST style="height: 400px;" -->
           <!-- my-5 pt-5 -->
@@ -61,6 +63,12 @@
               <h1>mathilde clerbout</h1>
               <p>I am a creative and enthusiastic front-end developer & archive curator with a strong interest for technology, culture and arts. As a passionate traveler, I enjoy continuously learning and exploring new ideas and approaches to problem-solving. </p>
             </div>
+            <div class="main-icons">
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-github fa-xl"></i></a>
+              <a href="#"><i class="fa fa-envelope fa-xl"></i></a>
+              <a href="#"><i class="fa fa-solid fa-chevron-down fa-xl"></i></a>
+            </div>
           </div>
           <div class="col-12 col-md-1 d-flex ml-2 mt-auto" >
             <img class="portrait" src="Mathilde-portrait.png" alt="portrait with a camera" width="150" height="150">
@@ -68,26 +76,49 @@
         </div>
 
       <!-- Wave -->
-        <div class="d-flex flex-row-reverse mt-auto ">
-          <svg>
-            <!-- Coordinates: -->
-            <path d="M190,10 L150,100 L110,50">
-            </path>
-          </svg>
+      <div class="d-md-flex flex-row-reverse mt-auto">
+        <div class="col-6 col-md-6">
+        <svg>
+          <!-- Coordinates: -->
+          <path d="M0,300 L300,0 L600,300">
+          </path>
+        </svg>
         </div>
+      </div>
 
+      <!-- my projects -->
+      <div class="row projects">
+        <div class="projects-box col-12 col-md-6">
+          <div class="project px-5">
+            <div class="project-1">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="projects-box col-12 col-md-6">
+          <div class="project px-5">
+            <div class="project-2">
+              stuff
 
-        <div class="footer fixed-bottom">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer ">
+          <!-- fixed-bottom -->
           <div class="footer-copyright">
             <a href="#">privacy policy</a>
           </div>
           <div class="footer-links">
             <a href="#"><i class="fab fa-linkedin"></i></a>
             <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
           </div>
-      </div> <!-- footer-->
+        </div>
+    </footer>
     </div> <!-- container-->
 
 

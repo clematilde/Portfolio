@@ -13,9 +13,6 @@ html {
     height: -webkit-fill-available;
 }
 
-.container {
-  /* flex-grow: 1; */
-}
 
 h1 {
   font-family: 'Poppins', sans-serif;
@@ -64,11 +61,14 @@ a:hover {
 }
 
 /* body */
+.fa {
+  margin: 6px;
+}
 
 /* wave */
 svg {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
 }
 
 path {
@@ -77,6 +77,16 @@ path {
   stroke-linecap:round;
   fill: none;
 }
+
+/* Projects */
+.project {
+  background-color: red;
+}
+
+.project-1 {
+  background-color: green;
+}
+
 
 /* footer */
 
