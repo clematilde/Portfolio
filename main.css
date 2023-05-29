@@ -19,6 +19,10 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  font-weight: bold;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
 
@@ -66,12 +70,12 @@ a:hover {
 }
 
 /* wave */
-svg {
+.wave {
   width: 500px;
   height: 300px;
 }
 
-path {
+.path {
   stroke: #D0A7A7;
   stroke-width: 5px;
   stroke-linecap:round;
@@ -80,13 +84,20 @@ path {
 
 /* Projects */
 .project {
-  background-color: red;
+  /* background-color: #D0A7A7 ; */
 }
 
-.project-1 {
-  background-color: green;
+.project-content {
+  /* background-color: green; */
 }
 
+.project-text {
+  /* background-color: #D0A7A7 */
+}
+
+.project-icons {
+  
+}
 
 /* footer */
 
