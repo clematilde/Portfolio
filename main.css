@@ -17,10 +17,28 @@ html {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+  font-size: 40px;
 }
 
-h3 {
+h2 {
   font-weight: bold;
+}
+h3 {
+  font-size:40px;
+  font-weight: 100;
+
+}
+
+h3:hover {
+  font-weight: 400;
+
+
+}
+
+h4 {
+  color: #E35E41;
+  font-weight: 100;
+
 }
 
 p {
@@ -35,7 +53,7 @@ a {
 }
 
 a:hover {
-  color: #D0A7A7;
+  color: #E35E41;
 }
 
 /* navbar */
@@ -58,13 +76,17 @@ a:hover {
   padding-right: 0px !important;
   padding-left: 0px !important;
   padding-bottom: 1px;
-  border-bottom: 4px solid #D0A7A7;
+  border-bottom: 4px solid #E35E41;
   font-weight: bold;
   transition: opacity 0.3s ease;
 
 }
 
 /* body */
+/* main-icons {
+  color: #E35E41;
+} */
+
 .fa {
   margin: 6px;
 }
@@ -76,27 +98,39 @@ a:hover {
 }
 
 .path {
-  stroke: #D0A7A7;
+  stroke: #E2967D;
   stroke-width: 5px;
   stroke-linecap:round;
   fill: none;
 }
 
 /* Projects */
-.project {
-  /* background-color: #D0A7A7 ; */
+/* .projects-box {
+  border-radius: 35px;
+} */
+.projects-right {
+  border-left: 4px solid #E35E41;
 }
 
+.projects-left {
+  border-right: 4px solid #E35E41;
+}
+
+
+
+ /* {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 100px;
+/* } */
 .project-content {
-  /* background-color: green; */
+  /* background-color: #FFF2E8 ; */
 }
 
-.project-text {
-  /* background-color: #D0A7A7 */
+.projects-box {
 }
 
 .project-icons {
-  
+
 }
 
 /* footer */
