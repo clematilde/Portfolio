@@ -13,12 +13,13 @@ html {
     height: -webkit-fill-available;
 }
 
-.container {
-  /* flex-grow: 1; */
-}
 
 h1 {
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
   font-weight: bold;
 }
 
@@ -64,20 +65,38 @@ a:hover {
 }
 
 /* body */
-
-/* portrait */
-
-/* wave */
-svg {
-  width: 600px;
-  height: 400px;
+.fa {
+  margin: 6px;
 }
 
-path {
+/* wave */
+.wave {
+  width: 500px;
+  height: 300px;
+}
+
+.path {
   stroke: #D0A7A7;
   stroke-width: 5px;
   stroke-linecap:round;
   fill: none;
+}
+
+/* Projects */
+.project {
+  /* background-color: #D0A7A7 ; */
+}
+
+.project-content {
+  /* background-color: green; */
+}
+
+.project-text {
+  /* background-color: #D0A7A7 */
+}
+
+.project-icons {
+  
 }
 
 /* footer */
