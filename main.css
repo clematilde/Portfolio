@@ -29,8 +29,9 @@ h3 {
   font-weight: 100;
 }
 
-h3:hover {
+h3 a:hover {
   font-weight: 400;
+  color: #3A1FD2!important;
 }
 
 h4 {
@@ -68,26 +69,27 @@ a:hover {
 
 /* navbar */
 
-.nav-item {
+.nav-item,
+.navbar-nav .nav-link  {
   margin: 5px;
   color: #3A1FD2;
 }
 
-.nav-link {
-  color: #3A1FD2;
-}
-
-.nav-item:active {
-  color: #3A1FD2 !important;
-}
-
-.nav-link:hover {
-  color: #3A1FD2  !important;
+.navbar-nav .nav-link.active {
+  color:#3A1FD2;
   padding-right: 0px !important;
   padding-left: 0px !important;
   padding-bottom: 1px;
   border-bottom: 4px solid #E35E41;
   font-weight: bold;
+}
+
+.nav-link:hover{
+  color: #3A1FD2;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 1px;
+  border-bottom: 4px solid #E2967D;
   transition: opacity 0.3s ease;
 
 }
@@ -109,7 +111,7 @@ a:hover {
 }
 
 .path {
-  stroke: #E35E41;
+  stroke: #E2967D;
   stroke-width: 5px;
   stroke-linecap:round;
   fill: none;
@@ -172,5 +174,5 @@ a:hover {
 }
 
 .footer-copyright {
-  font-size:x-small;
+  font-size: x-small;
 }
