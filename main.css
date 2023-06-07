@@ -32,7 +32,6 @@ h4 {
 
 p {
   font-family: 'Poppins', sans-serif;
-  /* font-family: 'Lora', serif; */
 }
 
 a {
@@ -58,7 +57,7 @@ a:hover {
   color: white;
 }
 
-/* navbar */
+/* --- NAVBAR ---- */
 
 .nav-item,
 .navbar-nav .nav-link  {
@@ -84,19 +83,14 @@ a:hover {
   transition: opacity 0.3s ease;
 }
 
-
-
-/* body */
-
-/* main-icons {
-  color: #E35E41;
-} */
+/* --- BODY --- */
 
 .fa {
   margin: 6px;
 }
 
-/* wave */
+/* --- WAVE --- */
+
 .wave {
   width: 500px;
   height: 300px;
@@ -109,10 +103,8 @@ a:hover {
   fill: none;
 }
 
-/* Projects */
-/* .projects-box {
-  border-radius: 35px;
-} */
+/* --- PROJECTS --- */
+
 .projects-right {
   border-left: 4px solid #E35E41;
 }
@@ -121,24 +113,7 @@ a:hover {
   border-right: 4px solid #E35E41;
 }
 
-
-
- /* {
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius: 100px;
-/* } */
-.project-content {
-  /* background-color: #FFF2E8 ; */
-}
-
-.projects-box {
-}
-
-.project-icons {
-
-}
-
-/* footer */
+/* --- FOOTER --- */
 
 
 .footer {
@@ -149,18 +124,20 @@ a:hover {
   height: 50px;
   padding: 0px 20px;
   color:  #3A1FD2;
-
 }
+
 .footer-links {
   display: flex;
   align-items: center;
 }
+
 .footer-links a {
   color: #3A1FD2;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
+
 .footer-links a:hover {
   color: #E35E41;
 }
