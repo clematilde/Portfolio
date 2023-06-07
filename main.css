@@ -2,17 +2,8 @@
 body {
   background-color: #FFF2E8;
   color: #3A1FD2;
-  /* min-height: 100vh; */
-  /* mobile viewport bug fix */
   min-height: -webkit-fill-available;
-  /* display: flex; */
-  /* flex-direction: column; */
 }
-
-html {
-    height: -webkit-fill-available;
-}
-
 
 h1 {
   font-family: 'Poppins', sans-serif;
@@ -91,8 +82,9 @@ a:hover {
   padding-bottom: 1px;
   border-bottom: 4px solid #E2967D;
   transition: opacity 0.3s ease;
-
 }
+
+
 
 /* body */
 
